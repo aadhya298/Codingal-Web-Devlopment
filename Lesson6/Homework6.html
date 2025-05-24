@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Olympiad Registration Form</h1>
+    <form>
+    <fieldset>
+        <label for="name">Name</label>
+        <input type="text" name="name" maxlength="30" size="32">
+        <br>
+        <label for="user-id">Username of student account</label>
+        <input type="text" name="user-id">
+        <br>
+        <label for="pass">Password</label>
+        <input type="password" name="pass">
+    </fieldset>
+    <fieldset>
+        <label for="exam">Olympiad to appear in:</label>
+        <input type="checkbox" name="exam" value="IMO">IMO
+        <input type="checkbox" name="exam" value="NSO">NSO
+        <input type="checkbox" name="exam" value="IEO">IEO
+        <input type="checkbox" name="exam" value="ICSO">ICSO
+        <input type="checkbox" name="exam" value="IGKO">IGKO
+        <br>
+        <label for="mode">Mode to give exam</label>
+        <input type="radio" name="mode" id="offline" value="offline">Offline
+        <input type="radio" name="mode" id="online" value="online">Online
+    </fieldset>
+    <fieldset>
+        <input type="submit" name="sub" value="SUBMIT">
+        <input type="reset" name="res" value="RESET">
+    </fieldset>
+    </form>
+</body>
+</html>
