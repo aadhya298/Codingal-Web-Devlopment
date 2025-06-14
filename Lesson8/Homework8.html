@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCTtSRPGLbXOcbTQWNQZ11J60RZFgjglO_1A&s");
+            background-repeat: no-repeat;
+            background-size: 1300px 600px;
+        }
+
+        .anime {
+            width: 100%;
+            text-align: center;
+            background-color: aquamarine;
+            animation-name: animation;
+            animation-duration: 14s;
+            border: 2px solid crimson;
+        }
+
+        @keyframes animation {
+            0% {
+                background-color: black;
+            }
+
+            25% {
+                background-color: lavender;
+            }
+
+            35% {
+                background-color: burlywood;
+            }
+
+            40% {
+                background-color: pink;
+            }
+        }
+
+        .grad {
+            background: linear-gradient(blanchedalmond, brown);
+        }
+
+        .content {
+            color: azure;
+            font-style: italic;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <h1 class="anime">HELLO!!</h1>
+    <h4 class="grad">Let us learn some new facts today</h4>
+    <p>
+    <ul type="disc" class="content">
+        <li>Octopuses have three hearts: Two of these hearts pump blood through the gills, while the third circulates
+            blood to the rest of the body.</li>
+        <li>A group of owls is called a parliament: This term is used to describe a gathering of these wise-looking
+            birds.</li>
+        <li>Hot water may freeze faster than cold water: This phenomenon, known as the Mpemba effect, is still being
+            researched.</li>
+        <li>The shortest war in history lasted only 38 minutes: The Anglo-Zanzibar War in 1896 holds this record.</li>
+        <li>Bananas are berries, but strawberries aren't: Botanically speaking, a berry is defined as a fruit with seeds
+            embedded in its flesh, which fits bananas but not strawberries.</li>
+    </ul>
+    </p>
 </body>
+
 </html>
