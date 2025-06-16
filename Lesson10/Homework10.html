@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color:white;
+    }
+    label{
+        color:white;
+    }
+    input[name="name"]{
+        border: 2px solid chartreuse;
+    }
+    input[name="surname"]{
+        border: 2px solid burlywood;
+    }
+    h1{
+        color:khaki;
+        text-decoration: underline wavy;
+    }
+    h1:hover{
+        color:deepskyblue;
+    }
+    h1 + h3{
+        font-family:Cursive ;
+        color: aqua;
+        text-decoration: underline;
+    }
+    div{
+        color:cornsilk
+    }
+    div > p{
+        color:darkgoldenrod;
+        text-decoration: underline;
+    }
+    ul > li{
+        color:darksalmon;
+    }
+    a{
+        color:white;
+    }
+    a:hover{
+        cursor: pointer;
+        color:lightpink;
+    }
+    li:nth-child(4):hover{
+        text-decoration: underline;
+        color:white;
+    }
+    h3:not(.head1)::after{
+        content:"💭";
+    }
+   div::before{
+        content:"👉🏼";
+    }
+    h1::first-letter{
+        font-size: 75px;
+        font-style: oblique;
+    }
+</style>
+<body>
+    <center>
+        <h1>HOLA!!</h1>
+        <h3 class="head1">How r u doing??</h3>
+        <h3 class="head2">🤗🤗</h3>
+    </center>
+    <br>
+    <form>
+        <label name="name">Your First Name:</label>
+        <input type="text" name="name">
+        <label name="surname">Your Last Name:</label>
+        <input type="text" name="surname">
+    </form>
+    <br>
+   <div>
+    Codingal offers various specialised coding courses from children of k-12. We also provide STEM accredited certificates for future use
+    <p>
+        Codingal provides different skills:
+        <ul>
+            <li>Web Development</li>
+            <li>Python</li>
+            <li>Data Science</li>
+            <li>Java</li>
+        </ul>
+    </p>
+   </div>
+   <br>
+   <a href="">For more info</a>
+</body> 
+
+</html>
