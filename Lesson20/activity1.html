@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p class="hola"></p>
+    <script>
+        function hope(a, b, c) {
+            console.log(a * b)
+            return a * b * c
+        };
+        var result = hope(5, 4, 6)
+        console.log(result)
+        hope(5, 4, 6);
+
+        function web(){
+            document.getElementsByClassName("hola")[0].innerHTML="Welcome guys"
+        };
+        web();
+        function check(){
+            var k=40;
+            console.log(k);
+        };
+//console.log(k)         It will create error as the scope of the variable is limited to the function check() 
+        var expression=function(a,b){
+            console.log("hi",a);
+            console.log("Do you know that who invented",b);
+        }
+        expression("Eve",0)
+    </script>
+</body>
+</html>
