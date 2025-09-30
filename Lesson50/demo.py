@@ -23,3 +23,5 @@ my_file = open("Lesson50/sample.txt")
 # Looping over all lines and printing the str
 for l in my_file:
     print(l)
+
+my_file.close()
