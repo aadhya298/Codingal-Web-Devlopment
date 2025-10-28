@@ -35,3 +35,10 @@
 .image>img{
     padding-top: 10px;
 }
+.image>a{
+    text-decoration: none;
+    color:inherit;
+}
+.image>a:hover{
+    text-decoration: underline;
+}
