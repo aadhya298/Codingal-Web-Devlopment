@@ -7,9 +7,16 @@ else:
 
 a=int(input("Enter I number for HCF:"))
 b=int(input("Enter II number for HCF:"))
-def HCF(x,y):
+def hcf(x,y):
     while y:
         x,y=y,x%y
     return x
-result=HCF(a,b)
-print(f"The HCF of {a} and {b} is {result}")
+result_hcf=hcf(a,b)
+print(f"The HCF of {a} and {b} is {result_hcf}")
+
+
+def lcm(x,y):
+  return x*y// hcf(x,y)
+
+result_lcm=lcm(a,b)
+print(f"The LCM of {a} and {b} is {result_lcm}")
