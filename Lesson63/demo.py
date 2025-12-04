@@ -12,3 +12,7 @@ result=0
 for i in range(0,len(seq)):
     result= result^seq[i]
 print(result)
+
+# Check two odd occurence
+order=[2,4,3,2,8,3]
+    
